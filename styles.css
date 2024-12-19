@@ -8,12 +8,11 @@ body {
 }
 
 header {
-    background: #007BFF;
+    background: #001A6E;
     color: white;
     padding: 10px 0;
     text-align: center;
 }
-
 header nav a {
     color: white;
     margin: 0 10px;
@@ -24,7 +23,18 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-main {
+.bio-main {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.bio-main {
     padding: 20px;
     background: white;
     margin: 20px auto;
@@ -32,12 +42,68 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.resume-main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.resume-header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.resume-header h2 {
+    margin: 10px 0;
+}
+
+.resume-container {
+    text-align: left;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+ul li p {
+    margin: 5px 0;
+}
+
 footer {
     text-align: center;
-    background: #333;
+    background: #074799;
     color: white;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
